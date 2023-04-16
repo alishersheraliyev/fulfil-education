@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+  .hero {
+    padding: 0;
+  }
+  .navbar {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #fff;
+  }
+  .hero-box {
+    flex-direction: column-reverse;
+  }
+  .nav-items {
+    display: none;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+  .hero-stat-box {
+    width: 105px;
+    height: 88px;
+  }
+
+  .hero-images {
+    width: 100%;
+  }
+
+  .hero-images div {
+    width: 157px;
+    height: 157px;
+    position: relative;
+  }
+  .hero-images div img {
+    width: 157px;
+    height: 157px;
+  }
+}
